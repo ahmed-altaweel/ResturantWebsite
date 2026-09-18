@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مطعم المذاق</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <!-- <style>
+
+</style> -->
+  </head>
+  <body>
+    <header class="top">
+      <a href="#home" class="brand">
+        <img src="Image/logo.svg" alt="" />
+        <span>مطعم المذاق</span>
+      </a>
+      <nav class="drop">
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#dishes">الأطباق</a></li>
+          <li><a href="#offers">العروض</a></li>
+          <li class="has-sub">
+            <a href="#menu">القائمة</a>
+            <ul>
+              <li><a href="#menu">الوجبات</a></li>
+              <li><a href="#menu">العصائر</a></li>
+              <li><a href="#menu">الحلويات</a></li>
+              <li><a href="#menu">السلطات</a></li>
+            </ul>
+          </li>
+          <li><a href="#reserve">الحجز</a></li>
+          <li><a href="#convert">المحول</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="greet" id="greet">أهلاً بك في مطعمنا</p>
+        <h1>مطعم المذاق</h1>
+        <p class="lead">
+          أطباق شرقية وغربية طازجة، تُحضَّر يومياً بعناية وتُقدَّم في أجواء
+          عائلية هادئة.
+        </p>
+        <ul class="tags">
+          <li><a href="#menu">الوجبات</a></li>
+          <li><a href="#menu">العصائر</a></li>
+          <li><a href="#menu">الحلويات</a></li>
+          <li><a href="#menu">السلطات</a></li>
+        </ul>
+        <a href="#reserve" class="btn">احجز طاولتك</a>
+      </div>
+      <img class="plate" src="Image/plate.svg" alt="طبق من المطعم" />
+    </section>
+
+    <section class="sec" id="about">
+      <h2 class="title">من نحن</h2>
+      <div class="about">
+        <article>
+          <img src="Image/pot.svg" class="float-img" alt="" />
+          <p>
+            مطعم المذاق مطعم عائلي يقدم الأطباق الشرقية والغربية بمكونات طازجة
+            تصل إلينا كل صباح. نؤمن أن الطعام الجيد يبدأ من مطبخ نظيف وطهاة
+            يحبون عملهم، ولذلك نحضّر كل طلب عند طلبه.
+          </p>
+          <p>
+            يضم المطعم قاعة عائلية واسعة وركناً خاصاً للأطفال، ونوفر خدمة الطلب
+            الخارجي والتوصيل إلى المنازل، إضافة إلى قسم مستقل للعصائر الطبيعية
+            والحلويات والسلطات.
+          </p>
+          <blockquote class="note">
+            لحجز طاولة: اكتب بياناتك في نموذج الحجز، ثم اضغط زر التأكيد، وستجد
+            طاولتك جاهزة عند وصولك.
+          </blockquote>
+        </article>
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="#menu">قائمة الطعام</a></li>
+              <li><a href="#dishes">الأطباق المميزة</a></li>
+              <li><a href="#offers">العروض</a></li>
+              <li><a href="#reserve">حجز طاولة</a></li>
+              <li><a href="#convert">محول العملات</a></li>
+              <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+    </section>
+
+    <section class="sec" id="why">
+      <h2 class="title">لماذا المذاق</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>مكونات طازجة</h3>
+          <p>نشتري الخضار واللحوم يومياً ولا نخزّن.</p>
+        </div>
+        <div class="feature">
+          <h3>وصفات متنوعة</h3>
+          <p>من المندي إلى البيتزا في قائمة واحدة.</p>
+        </div>
+        <div class="feature">
+          <h3>أجواء عائلية</h3>
+          <p>مقاعد مريحة وركن مخصص للأطفال.</p>
+        </div>
+        <div class="feature">
+          <h3>أسعار مناسبة</h3>
+          <p>وجبات بجودة عالية وسعر يناسب الجميع.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="menu">
+      <h2 class="title">قائمة الطعام</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>الصنف</th>
+              <th>القسم</th>
+              <th>السعر بالدولار</th>
+              <th>السعر بالريال اليمني</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>برجر لحم</td>
+              <td><span class="cat">وجبات</span></td>
+              <td>5 دولار</td>
+              <td>2,675 ريال</td>
+            </tr>
+            <tr>
+              <td>بيتزا مارغريتا</td>
+              <td><span class="cat">وجبات</span></td>
+              <td>7 دولار</td>
+              <td>3,745 ريال</td>
+            </tr>
+            <tr>
+              <td>شاورما دجاج</td>
+              <td><span class="cat">وجبات</span></td>
+              <td>4 دولار</td>
+              <td>2,140 ريال</td>
+            </tr>
+            <tr>
+              <td>مندي لحم</td>
+              <td><span class="cat">وجبات</span></td>
+              <td>8 دولار</td>
+              <td>4,280 ريال</td>
+            </tr>
+            <tr>
+              <td>سلطة يونانية</td>
+              <td><span class="cat">سلطات</span></td>
+              <td>3 دولار</td>
+              <td>1,605 ريال</td>
+            </tr>
+            <tr>
+              <td>عصير برتقال</td>
+              <td><span class="cat">عصائر</span></td>
+              <td>2 دولار</td>
+              <td>1,070 ريال</td>
+            </tr>
+            <tr>
+              <td>كيكة الشوكولاتة</td>
+              <td><span class="cat">حلويات</span></td>
+              <td>4 دولار</td>
+              <td>2,140 ريال</td>
+            </tr>
+            <tr>
+              <td>آيس كريم</td>
+              <td><span class="cat">حلويات</span></td>
+              <td>3 دولار</td>
+              <td>1,605 ريال</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="sec" id="dishes">
+      <h2 class="title">الأطباق المميزة</h2>
+      <div class="cards">
+        <div class="card best">
+          <img src="Image/dish-burger.svg" alt="برجر" />
+          <span class="price">5 دولار</span>
+          <div class="card-body">
+            <h3>برجر لحم</h3>
+            <p>قطعة لحم مشوية مع الجبن والخس في خبز طازج.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Image/dish-pizza.svg" alt="بيتزا" />
+          <span class="price">7 دولار</span>
+          <div class="card-body">
+            <h3>بيتزا مارغريتا</h3>
+            <p>عجينة رقيقة مع الجبن والطماطم والريحان.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Image/dish-juice.svg" alt="عصير" />
+          <span class="price">2 دولار</span>
+          <div class="card-body">
+            <h3>عصير برتقال</h3>
+            <p>برتقال طبيعي معصور عند الطلب بدون سكر مضاف.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Image/dish-cake.svg" alt="كيكة" />
+          <span class="price">4 دولار</span>
+          <div class="card-body">
+            <h3>كيكة الشوكولاتة</h3>
+            <p>طبقات من الشوكولاتة الغنية مع صلصة دافئة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="offers">
+      <h2 class="title">العروض</h2>
+      <div class="offer">
+        <span class="badge">خصم 20%</span>
+        <h3>عرض العائلة</h3>
+        <p>
+          عند طلب أربع وجبات رئيسية أو أكثر تحصل على خصم على إجمالي الفاتورة، مع
+          عصير مجاني لكل طفل.
+        </p>
+        <ul class="terms">
+          <li>العرض ساري كل يوم جمعة وسبت</li>
+          <li>لا يشمل الطلبات الخارجية</li>
+          <li>يُطبق على الحجز المسبق فقط</li>
+        </ul>
+        <div class="reveal">
+          مرر المؤشر هنا لإظهار كود الخصم
+          <p class="code">MZAQ20</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="band" id="reserve">
+      <section class="sec">
+        <h2 class="title">حجز طاولة</h2>
+        <form class="form">
+          <div class="field">
+            <label for="guestName">الاسم الكامل</label>
+            <input
+              class="control"
+              type="text"
+              id="guestName"
+              placeholder="مثال: أحمد محمد"
+            />
+          </div>
+          <div class="field">
+            <label for="guestPhone">رقم الجوال</label>
+            <input
+              class="control"
+              type="tel"
+              id="guestPhone"
+              placeholder="7XXXXXXXX"
+            />
+          </div>
+          <div class="field">
+            <label for="guestEmail">البريد الإلكتروني</label>
+            <input
+              class="control"
+              type="email"
+              id="guestEmail"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="field">
+            <label for="guestDate">التاريخ</label>
+            <input class="control" type="date" id="guestDate" />
+          </div>
+          <div class="field">
+            <label for="guestTime">الوقت</label>
+            <input class="control" type="time" id="guestTime" />
+          </div>
+          <div class="field">
+            <label for="guestCount">عدد الأشخاص</label>
+            <input
+              class="control"
+              type="number"
+              id="guestCount"
+              min="1"
+              max="12"
+              value="2"
+            />
+          </div>
+          <div class="field">
+            <label for="guestHall">القاعة</label>
+            <select class="control" id="guestHall">
+              <option>قاعة عائلية</option>
+              <option>قاعة عامة</option>
+              <option>ركن الأطفال</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="guestTable">رقم الطاولة</label>
+            <input
+              class="control"
+              type="text"
+              id="guestTable"
+              readonly
+              value="يُحدد عند التأكيد"
+            />
+          </div>
+          <div class="field wide">
+            <label for="guestNote">ملاحظات</label>
+            <textarea
+              class="control"
+              id="guestNote"
+              placeholder="مناسبة خاصة، كرسي أطفال، حساسية من طعام..."
+            ></textarea>
+          </div>
+          <div class="actions">
+            <button type="button" class="btn" onclick="reserveTable()">
+              تأكيد الحجز
+            </button>
+            <span class="msg" id="reserveMessage"></span>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <section class="sec" id="convert">
+      <h2 class="title">محول الأسعار</h2>
+      <div class="converter">
+        <div class="box">
+          <h3>تحويل فوري</h3>
+          <p class="hint">اكتب في أي حقل وسيظهر الآخر مباشرة.</p>
+          <div class="group">
+            <span class="unit">$</span>
+            <input
+              class="control"
+              type="number"
+              id="usd"
+              placeholder="بالدولار"
+            />
+          </div>
+          <div class="group">
+            <span class="unit">YER</span>
+            <input
+              class="control"
+              type="number"
+              id="yer"
+              placeholder="بالريال اليمني"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <h3>التحويل بالزر</h3>
+          <p class="hint">اكتب المبلغ واختر العملة ثم اضغط تحويل.</p>
+          <div class="row">
+            <input
+              class="control"
+              type="text"
+              id="usdAmount"
+              placeholder="المبلغ بالدولار"
+            />
+            <button type="button" class="btn" onclick="convertDollarToRial()">
+              تحويل
+            </button>
+          </div>
+          <span class="msg" id="message"></span>
+          <span class="result" id="convertresult"></span>
+          <hr />
+          <div class="row">
+            <input
+              class="control"
+              type="text"
+              id="money"
+              placeholder="المبلغ"
+            />
+            <select class="control" id="currency">
+              <option value="535">دولار</option>
+              <option value="143">ريال سعودي</option>
+              <option value="590">يورو</option>
+            </select>
+            <button type="button" class="btn" onclick="convertToYemeniRial()">
+              تحويل
+            </button>
+          </div>
+          <span class="msg" id="message2"></span>
+          <span class="result" id="convertresult2"></span>
+        </div>
+      </div>
+      <script>
+        let usd = document.getElementById("usd");
+        let yer = document.getElementById("yer");
+        usd.onkeyup = function () {
+          yer.value =
+            usd.value === "" ? "" : Math.round(usd.value * dollarRate);
+        };
+        yer.onkeyup = function () {
+          usd.value =
+            yer.value === "" ? "" : (yer.value / dollarRate).toFixed(2);
+        };
+      </script>
+    </section>
+
+    <footer class="foot" id="contact">
+      <div class="foot-in">
+        <div>
+          <h3>مطعم المذاق</h3>
+          <p>نقدم لكم الطعام الطازج كل يوم.</p>
+        </div>
+        <div>
+          <h3>ساعات العمل</h3>
+          <p>من 8 صباحاً حتى 11 ليلاً طوال أيام الأسبوع</p>
+        </div>
+        <div>
+          <h3>تواصل معنا</h3>
+          <p>info@almathaq.example</p>
+        </div>
+      </div>
+      <p class="copy">جميع الحقوق محفوظة © <span id="year"></span></p>
+    </footer>
+
+    <a href="#reserve" class="fab">احجز الآن</a>
+  </body>
+</html>
